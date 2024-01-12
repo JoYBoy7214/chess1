@@ -1,0 +1,57 @@
+#gameboard{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    padding: 100px 550px 100px 550px;
+    flex-wrap: wrap;
+    border: solid;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.square svg{
+    height:40px ;
+    width: 40px;
+    margin: 5px;
+    z-index: -9;
+    position: relative;
+    
+    
+}
+.square{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    
+}
+path{ 
+    position: relative;
+    z-index: -10;
+}
+.pieces{
+    z-index: 9;
+    position: relative;
+}
+.fuchsia{
+    background-color:fuchsia ;
+}
+.snow{
+    background-color:darkkhaki;
+}
+.black{
+    fill:black;
+}
+.white{
+    fill:linen;
+}
+.queen .black{
+    fill:black;
+}
+.queen .white{
+    fill: indianred;
+}
+.rotate {
+    transform: rotate(180deg);
+}
+.blackKing{
+    color:aliceblue;}
